@@ -50,19 +50,9 @@ Preprocessing steps:
 5. Model Training
 6. Model Evaluation
 
----
 
 Results
 Accuracy: ~97.6%
 Strong generalization on validation data
 Effective classification of positive and negative sentiment
 
-# Deep Learning Model Architecture
-
-model = Sequential([
-    Dense(256, activation='relu'),
-    Dense(128, activation='relu'),
-    Dense(64, activation='relu'),
-    Dense(32, activation='relu'),
-    Dense(1, activation='sigmoid')  # classification 0 or 1
-])
